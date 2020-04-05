@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixAuth", "MatrixAuth\MatrixAuth.csproj", "{A548B891-D05C-4D74-AAEC-198F5D4E29FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixAuth.Service", "Service\MatrixAuth.Service.csproj", "{763FF0E5-38B4-48E7-939D-4DAB48A5A7FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixAuth.Utils", "Utils\MatrixAuth.Utils.csproj", "{298076A9-AE2D-4B55-8EFF-AB841A8436B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A548B891-D05C-4D74-AAEC-198F5D4E29FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A548B891-D05C-4D74-AAEC-198F5D4E29FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A548B891-D05C-4D74-AAEC-198F5D4E29FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A548B891-D05C-4D74-AAEC-198F5D4E29FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763FF0E5-38B4-48E7-939D-4DAB48A5A7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763FF0E5-38B4-48E7-939D-4DAB48A5A7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763FF0E5-38B4-48E7-939D-4DAB48A5A7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763FF0E5-38B4-48E7-939D-4DAB48A5A7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298076A9-AE2D-4B55-8EFF-AB841A8436B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298076A9-AE2D-4B55-8EFF-AB841A8436B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298076A9-AE2D-4B55-8EFF-AB841A8436B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298076A9-AE2D-4B55-8EFF-AB841A8436B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9829F71F-B930-45A6-86AC-8C42C6D2C043}
+	EndGlobalSection
+EndGlobal
