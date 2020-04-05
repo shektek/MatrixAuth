@@ -15,21 +15,10 @@ git clone https://github.com/shektek/MatrixAuth.git
 
 3) Run the Project.
 
-4) Your web browser should open a page something like http://localhost:52915/  - add swagger to the end of the URL: http://localhost:52915/swagger
-And a Swagger page should be displayed.
+4) Your web browser should automatically open a page at http://localhost:5000/swagger/index.html
 
-5) NOW YUO SEE 3 endpoints. /api/User is used for creating users. /api/User/{username} checks whether an individual user is online. /api/User/active will provide a list of active users.
+5) Now you should see 3 endpoints. /api/User is used for creating users. /api/User/{username} checks whether an individual user is online. /api/User/active will provide a list of active users.
 
-6) Access the **/api/user/create** endpoind and create a new user, you should receive a result "User Created Successfully! :)"
-
-7) Test Login with the Created User in the **/api/user** endpoint, with the following request
-```
-{
-	"homeserver": "matrix.org"
-	"username": "UserNameHere",
-	"password": "PasswordHere"
-}
-```
 
 ## Other notes
 
