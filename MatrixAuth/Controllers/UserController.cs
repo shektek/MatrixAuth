@@ -43,7 +43,7 @@ namespace MatrixAuth.API.Controllers
 
             if (ret == null)
             {                
-                return StatusCode(404);
+                return StatusCode(401);
             }
 
             return Json(ret);
