@@ -5,6 +5,7 @@ using MatrixAuth.Service.Interface;
 using Matrix.Structures;
 using System;
 using System.Linq;
+using MatrixAuth.Requests;
 
 namespace MatrixAuth.API.Controllers
 {
@@ -46,7 +47,15 @@ namespace MatrixAuth.API.Controllers
                 return StatusCode(401);
             }
 
-            return Json(ret);
+            var response = new UserResponse
+            {
+                access_token = ret.access_token,
+                user_id = ret.user_id,
+                home_server = ret.home_server,
+                refresh_token = ret.refresh_token
+            };
+
+            return Json(response);
         }
 
         //This is just for testing via Swagger

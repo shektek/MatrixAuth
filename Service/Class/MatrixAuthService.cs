@@ -81,6 +81,7 @@ namespace MatrixAuth.Service.Class
                     {
                         response = null;
                         Console.WriteLine($"Error encountered while password-logging in user {username}: {e.Message}");
+                        _matrixClients.Remove(username);
                     }
                 }
                 else
