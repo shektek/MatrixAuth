@@ -23,7 +23,7 @@ namespace MatrixAuth.API.Controllers
         //[RequireHttps] //TODO: Get SSL certificate and use this for security
         [AllowAnonymous]
         [HttpPost]
-        [Route("")]
+        [Route("Login")]
         public ActionResult ValidateUser([FromBody]UserLogin request)
         {
             if(HttpContext.Request.Scheme != Uri.UriSchemeHttps)
@@ -76,7 +76,7 @@ namespace MatrixAuth.API.Controllers
 
         [AllowAnonymous]
         [HttpGet]
-        [Route("active")]
+        [Route("Active")]
         public ActionResult GetActiveUsers()
         {
             var userList = _matrixAuthService.ListUsers();
